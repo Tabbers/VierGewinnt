@@ -1,10 +1,12 @@
 #pragma once
-#include "globaldef.h"
+#include "AICore\globaldef.h"
+
 class Board
 {
 public:
 	Board();
 	~Board();
 	int Cells[CellsX*CellsY];
+	void ResetBoard();
 };
 
